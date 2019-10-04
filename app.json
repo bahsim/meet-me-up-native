@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "MeetMeUp",
+    "slug": "meet-me-up",
+    "description": "the meeting of your life",
+    "owner": "bahsim",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "githubUrl": "https://github.com/bahsim/meet-me-up-native",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "primaryColor": "#ffffff",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "io.flatberry-test.app-test"
+    },
+    "ios": {
+      "bundleIdentifier": "io.flatberry-test.app-test",
+      "supportsTablet": true
+    }
+  }
+}
